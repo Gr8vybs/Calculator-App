@@ -1,0 +1,101 @@
+body, * {
+    font-size: 15pt;
+    margin: 0;
+    padding: 0;
+}
+
+.calc-body {
+  background-color: #42445A;
+  margin:30px 25px;
+  width: calc(100vw - 50px);
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 6px 0.5px black
+}
+
+.display-container {
+  background-color: black;
+  display: flex;
+  height: 120px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  border-radius: 5px;
+  box-shadow: 0.2px 0.2px 4px 0px white;
+  overFlow: hidden;
+}
+
+.working-area {
+  background-color: white;
+  display: flex;
+  height: 310px;
+  margin: 0 7px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.numbers-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #42445A;
+  margin: 0 5px;
+  width: 70%;
+  height: 95%;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0.2px 0.2px 5px 0 black;
+}
+
+.arith-operator {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 95%;
+  justify-content: center;
+  margin-right: 5px;
+  /*align-items: center;*/
+}
+
+.button-num {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+} 
+
+#add, #minus, #divide, #multiply, #delete {
+  background-color: #42445A;
+  flex-grow: 1;
+  color: white;
+  font-size: 40px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 2px;
+  box-shadow: 0.1px 0.1px 0.5px 0 black;
+}
+
+.numb {
+  flex-grow: 1;
+  font-size: 40px;
+  color: #42445A;
+  border-radius: 5px;
+  margin: 2px 2px;
+  border: none;
+}
+
+#equals, #clear {
+  background-color: #42445A;
+  color: white;
+  border-radius: 5px;
+  border: 0.2px solid white;
+}
+
+.display-container h1 {
+  color: white;
+  align-self: center;
+  margin-left: auto;
+  font-size: 30px;
+  padding-right: 6px;
+}

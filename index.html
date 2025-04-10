@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Responsive Calculator</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- this is the general calculator body-->
+  <div class="calc-body">
+  <!-- this is the display area of the calculator app, where the input are being display-->
+  <section class="display-container"
+      <h1 id="display-text"></h1>
+  </section>
+  
+  <!-- this is the number button input section containing numbers from 0-9-->
+  <div class="working-area">
+  <section class="numbers-container">
+    <!-- this is the first row div containing button 1-3-->
+      <div class="button-num" id="first-row-btn">
+        <button type="button" class="numb numbers" id="num-1">1</button>
+        <button type="button" class="numb numbers" id="num-2">2</button>
+        <button type="button" class="numb numbers" id="num-3">3</button>
+      </div>
+      <!-- this is the second row div containing button 4-6-->
+      <div class="button-num" id="second-row-btn">
+        <button type="button" class="numb numbers" id="num-4">4</button>
+        <button type="button" class="numb numbers" id="num-5">5</button>
+        <button type="button" class="numb numbers" id="num-6">6</button>
+      </div>
+      <!-- this is the third row div containing button 7-9-->
+      <div class="button-num" id="third-row-btn">
+        <button type="button" class="numb numbers" id="num-7">7</button>
+        <button type="button" class="numb numbers" id="num-8">8</button>
+        <button type="button" class="numb numbers" id="num-9">9</button>
+      </div>
+      <!-- this is the fourth row div containing button 0 and the '=' assignment operator-->
+      <div class="button-num" id="fourth-row-btn">
+        <button type="button" class="numb numbers" id="num-0">0</button>
+        <button type="button" class="numb" id="equals"> = </button>
+        <button type="button" class="numb" id="clear"> c </button>
+      </div>
+  </section>
+  
+  <section class="arith-operator">
+    <button type="button" id="delete"> Del </button>
+    <button type="button" class="operators" id="add">+</button>
+    <button type="button" class="operators" id="minus">-</button>
+    <button type="button" class="operators" id="divide">/</button>
+    <button type="button" class="operators" id="multiply">*</button>
+  </section>
+  </div>
+  </div>
+  
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
